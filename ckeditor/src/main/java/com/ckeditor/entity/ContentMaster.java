@@ -4,6 +4,7 @@ import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -13,6 +14,7 @@ public class ContentMaster {
 	 @Id
 	 private long menu_id;
 	 private String description;
+	 @Column(columnDefinition = "LONGTEXT")
 	 private String content;
 	 private boolean enableDates;
 	 

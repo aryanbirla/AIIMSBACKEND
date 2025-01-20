@@ -24,7 +24,7 @@ public class UserInfo {
     private String roles;
     
     public UserInfo(int id, String name, String email, String password, String roles) {
-		super();
+
 		this.id = id;
 		this.name = name;
 		this.email = email;

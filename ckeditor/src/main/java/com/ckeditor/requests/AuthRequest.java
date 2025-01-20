@@ -32,7 +32,7 @@ public class AuthRequest {
 		return "AuthRequest [username=" + username + ", password=" + password + "]";
 	}
 	public AuthRequest(String username, String password) {
-		super();
+		
 		this.username = username;
 		this.password = password;
 	}
